@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg,rgb(19, 19, 252),rgb(20, 20, 20));
+    color: white;
+}
+nav{
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 120px;
+    background: linear-gradient(30deg,rgb(16, 16, 250),rgb(39, 39, 39));
+    border-bottom: 1px solid black;
+    height: 50px;
+    align-items: center;
+    
+
+}
+nav h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 0px;
+    position: relative;
+}
+nav div select{
+    background-color: transparent;
+    border: none;
+    margin: 0px 10px;font-size: 12px;
+    color: white;
+}
+nav div a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    margin: 0px 10px;
+    display: inline-block;
+}
+nav div a::after{
+    display: block;
+    content:"";
+    width:0%;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+}
+nav div a:hover::after{
+    width: 100%;
+    transition: 1s;
+    
+}
+nav div a:last-child{
+    background-color: hotpink;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+header{
+    display: flex;
+    background-color: transparent;
+    padding: 5px 120px;
+    height: auto;
+    margin-top: 50px;
+    height: 300px;
+}
+#box1{
+    width: 60%;
+    height: 300px;
+
+}
+#box1 h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#box1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#box2 img{
+    width: 100%;
+    height: 250px;
+}
+footer{
+    display: flex;
+    position: absolute;
+    padding: 10px 150px;
+    bottom: 0px;
+    justify-content: space-evenly;
+}
+footer i{
+    font-size: larger;
+}
+footer div{
+    margin-left: 0px;
+    ;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 100px;
+    justify-content: space-evenly;
+     
+}
+#button1{
+    background-color: hotpink;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    width: 150px;
+    height: 50px;
+
+}
+
+footer nav div{
+    display: flex;
+}
+
+
+
+
+#click{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}

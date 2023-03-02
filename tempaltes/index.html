@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'new.css'%}">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    {% block head %}
+      
+    {% endblock head %}
+
+</head>
+<body>
+    <section>
+        
+        <nav>
+            <i class='bx bxl-google'></i>
+            <h1>Bakkah</h1>
+            <div id="nav-links">
+                
+                <a href="/home">Home</a>
+                <a href="/clients">Clients</a>
+                <a href="/training">Training</a>
+                <a href="/exam">Examination</a>
+            
+                <a href="/register">Register</a>
+                
+            </div>
+            
+
+        </nav>
+
+        {% block body %}
+          
+        {% endblock body %}
+
+        <footer>
+            <nav>
+        
+                <div id="ft">
+    
+                    <a href="/home">Home</a>
+                    <a href="/clients">About</a>
+                    <a href="/training">Carrer</a>
+                    <a href="">News</a>
+                    <a href="/register">Contact Us</a>
+                    
+                </div>
+            </nav>
+            
+            <div>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-youtube'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-gmail'></i>
+            </div>
+            
+
+        </footer>
+
+    </section>
+    
+</body>
+</html>
